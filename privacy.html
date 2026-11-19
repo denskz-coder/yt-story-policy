@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — yt-story</title>
+<style>
+  body { margin:0; background:#fff; color:#202124; font:17px/1.65 -apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  .wrap { max-width:780px; margin:0 auto; padding:52px 24px 80px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .sub { color:#5f6368; margin:0 0 32px; font-size:15px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  p, li { margin:8px 0; }
+  a { color:#1a73e8; }
+  .en { margin-top:56px; border-top:1px solid #e0e0e0; padding-top:26px; color:#3c4043; font-size:15.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Политика конфиденциальности приложения yt-story</h1>
+  <p class="sub">Действует с 19 ноября 2026 года</p>
+
+  <h2>1. Общие сведения</h2>
+  <p>yt-story — личная служебная утилита, с помощью которой владелец канала загружает
+     собственные готовые видеоролики на собственный канал YouTube. У приложения нет
+     публичного веб-интерфейса, регистрации и доступа для третьих лиц; оно используется
+     только владельцем канала и работает локально на его компьютере.</p>
+
+  <h2>2. Какие данные обрабатываются</h2>
+  <ul>
+    <li>токен авторизации OAuth 2.0, выданный аккаунтом Google владельца канала;</li>
+    <li>видеофайлы, названия, описания, теги и обложки, которые владелец сам загружает
+        на свой канал.</li>
+  </ul>
+  <p>Приложение не собирает и не обрабатывает данные третьих лиц, не ведёт аналитику,
+     не передаёт данные третьим лицам и не использует файлы cookie.</p>
+
+  <h2>3. Использование сервисов YouTube API</h2>
+  <p>Приложение использует YouTube API Services (YouTube Data API v3) с единственной
+     областью доступа <code>youtube.upload</code> и вызывает только методы
+     <code>videos.insert</code> (загрузка видео) и <code>thumbnails.set</code> (загрузка
+     обложки). Данные канала через API не читаются.</p>
+  <p>Используя приложение, вы соглашаетесь с
+     <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Условиями использования YouTube</a>.</p>
+  <p>Политика конфиденциальности Google:
+     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</p>
+
+  <h2>4. Хранение и защита</h2>
+  <p>Токен авторизации хранится локально на компьютере владельца канала в файле с
+     ограниченным доступом и никогда не передаётся третьим лицам. Серверов у приложения
+     нет.</p>
+
+  <h2>5. Удаление данных и отзыв доступа</h2>
+  <p>Доступ приложения к аккаунту Google можно отозвать в любой момент на странице
+     <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>
+     или
+     <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener">security.google.com/settings/security/permissions</a>.</p>
+  <p>После отзыва доступа токен удаляется с компьютера владельца, и приложение теряет
+     возможность обращаться к YouTube API. Загруженные видео остаются на канале и
+     удаляются стандартными средствами YouTube Studio.</p>
+
+  <h2>6. Контакты</h2>
+  <p>Вопросы по обработке данных — через страницу канала на YouTube.</p>
+
+  <div class="en">
+    <h2>Privacy Policy (English summary)</h2>
+    <p>yt-story is a private, locally run utility used by a single channel owner to upload
+       his own videos to his own YouTube channel. It uses YouTube API Services with the
+       single scope <code>youtube.upload</code> and only calls <code>videos.insert</code>
+       and <code>thumbnails.set</code>. No third-party data is collected, no analytics,
+       cookies or servers are used. The OAuth token is stored locally. By using this
+       application you agree to be bound by the
+       <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>;
+       Google's privacy practices are described at
+       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.
+       Access can be revoked at
+       <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>,
+       after which the local token is deleted.</p>
+  </div>
+</div>
+</body>
+</html>
